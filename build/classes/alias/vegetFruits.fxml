@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="625.0" prefWidth="656.0" style="-fx-background-color: #c0c0c0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alias.VegetFruitsController">
+    <children>
+        <AnchorPane layoutY="-6.0" prefHeight="658.0" prefWidth="656.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <ImageView fitHeight="73.0" fitWidth="656.0" layoutX="12.0" layoutY="113.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/spiral.png" />
+                    </image>
+                </ImageView>
+                <Text fx:id="home" accessibleRole="TITLED_PANE" layoutX="262.0" layoutY="67.0" stroke="#464545" strokeType="OUTSIDE" strokeWidth="0.0" text="Saler" wrappingWidth="189.4970703125" AnchorPane.bottomAnchor="570.328125">
+                    <font>
+                        <Font name="Mistral" size="96.0" />
+                    </font>
+                </Text>
+                <Label layoutX="262.0" layoutY="71.0" text="Only disconts!">
+                    <font>
+                        <Font name="Mistral" size="29.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="cart_button" fitHeight="64.0" fitWidth="65.0" layoutX="565.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/cart.png" />
+                    </image>
+                </ImageView>
+            <Text layoutX="94.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tomato">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="287.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cucumber">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="504.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Potato">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="295.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coconut">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font></Text>
+            <Text layoutX="107.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apple">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="500.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banana">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="tomato" fitHeight="145.0" fitWidth="144.0" layoutX="56.0" layoutY="203.0">
+               <image>
+                  <Image url="@assets/tomato.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="coconut" fitHeight="160.0" fitWidth="165.0" layoutX="241.0" layoutY="405.0">
+               <image>
+                  <Image url="@assets/coconut.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="potato" fitHeight="134.0" fitWidth="144.0" layoutX="453.0" layoutY="209.0">
+               <image>
+                  <Image url="@assets/potato.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cucumber" fitHeight="160.0" fitWidth="144.0" layoutX="252.0" layoutY="196.0">
+               <image>
+                  <Image url="@assets/cucumber.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="banana" fitHeight="152.0" fitWidth="144.0" layoutX="453.0" layoutY="409.0">
+               <image>
+                  <Image url="@assets/banana.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="apple" fitHeight="134.0" fitWidth="112.0" layoutX="72.0" layoutY="418.0">
+               <image>
+                  <Image url="@assets/apple.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="104.0" fitWidth="144.0" layoutY="19.0">
+               <image>
+                  <Image url="@assets/VegetFruits.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="cartCounter" layoutX="597.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

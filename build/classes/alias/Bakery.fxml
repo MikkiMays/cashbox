@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="625.0" prefWidth="656.0" style="-fx-background-color: #c0c0c0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alias.BakeryController">
+    <children>
+        <AnchorPane layoutY="-6.0" prefHeight="658.0" prefWidth="656.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <ImageView fitHeight="73.0" fitWidth="656.0" layoutX="12.0" layoutY="113.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/spiral.png" />
+                    </image>
+                </ImageView>
+                <Text fx:id="home" accessibleRole="TITLED_PANE" layoutX="262.0" layoutY="67.0" stroke="#464545" strokeType="OUTSIDE" strokeWidth="0.0" text="Saler" wrappingWidth="189.4970703125" AnchorPane.bottomAnchor="570.328125">
+                    <font>
+                        <Font name="Mistral" size="96.0" />
+                    </font>
+                </Text>
+                <Label layoutX="262.0" layoutY="71.0" text="Only disconts!">
+                    <font>
+                        <Font name="Mistral" size="29.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="cart_button" fitHeight="64.0" fitWidth="65.0" layoutX="563.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/cart.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="96.0" fitWidth="112.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/BakerLab.png" />
+                    </image>
+                </ImageView>
+            <ImageView fx:id="bread" fitHeight="126.0" fitWidth="121.0" layoutX="89.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/bread.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cake" fitHeight="121.0" fitWidth="158.0" layoutX="274.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cake.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="croissant" fitHeight="121.0" fitWidth="158.0" layoutX="467.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cruasan.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="doughnut" fitHeight="135.0" fitWidth="135.0" layoutX="82.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/doughnut.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="muffin" fitHeight="135.0" fitWidth="128.0" layoutX="271.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/muffin.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="bun" fitHeight="135.0" fitWidth="135.0" layoutX="460.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/bun.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pretzel" fitHeight="135.0" fitWidth="128.0" layoutX="86.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/pretzel.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cookies" fitHeight="135.0" fitWidth="128.0" layoutX="270.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/cookies.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="eclair" fitHeight="135.0" fitWidth="135.0" layoutX="460.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/eclair.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="130.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bread">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="499.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Croissant">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="116.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doughnut">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="316.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Muffin">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="515.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bun">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="312.0" layoutY="612.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cookies">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font></Text>
+            <Text layoutX="126.0" layoutY="611.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pretzel">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="314.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cake">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="513.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eclair">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="cartCounter" layoutX="594.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="625.0" prefWidth="656.0" style="-fx-background-color: #c0c0c0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alias.ProductsController">
+    <children>
+        <AnchorPane layoutY="-6.0" prefHeight="658.0" prefWidth="656.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <ImageView fitHeight="73.0" fitWidth="656.0" layoutX="12.0" layoutY="113.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/spiral.png" />
+                    </image>
+                </ImageView>
+                <Text fx:id="home" accessibleRole="TITLED_PANE" layoutX="262.0" layoutY="67.0" stroke="#464545" strokeType="OUTSIDE" strokeWidth="0.0" text="Saler" wrappingWidth="189.4970703125" AnchorPane.bottomAnchor="570.328125">
+                    <font>
+                        <Font name="Mistral" size="96.0" />
+                    </font>
+                </Text>
+                <Label layoutX="262.0" layoutY="71.0" text="Only disconts!">
+                    <font>
+                        <Font name="Mistral" size="29.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="cart_button" fitHeight="64.0" fitWidth="65.0" layoutX="562.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@assets/cart.png" />
+                    </image>
+                </ImageView>
+            <Text layoutX="124.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juice">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="milk" fitHeight="139.0" fitWidth="94.0" layoutX="94.0" layoutY="215.0">
+               <image>
+                  <Image url="@assets/milk.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="chocolate" fitHeight="130.0" fitWidth="132.0" layoutX="262.0" layoutY="220.0">
+               <image>
+                  <Image url="@assets/chocolate.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="crisps" fitHeight="139.0" fitWidth="132.0" layoutX="466.0" layoutY="215.0">
+               <image>
+                  <Image url="@assets/crisps.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="juice" fitHeight="181.0" fitWidth="78.0" layoutX="102.0" layoutY="403.0">
+               <image>
+                  <Image url="@assets/juice.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="yogurt" fitHeight="149.0" fitWidth="144.0" layoutX="256.0" layoutY="435.0">
+               <image>
+                  <Image url="@assets/yogurt.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="paper" layoutX="466.0" layoutY="430.0">
+               <image>
+                  <Image url="@assets/toiletpaper.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="126.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Milk">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="292.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chocolate">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="507.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crisps">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="304.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogurt">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="490.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toilet paper">
+               <font>
+                  <Font name="Rockwell" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="96.0" fitWidth="132.0" layoutY="19.0">
+               <image>
+                  <Image url="@assets/Productees.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="cartCounter" layoutX="594.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
